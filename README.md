@@ -3,7 +3,7 @@ Example showing how to deploy to Localstack with Hashicorp Terraform
 
 ## Prerequestites
 - Docker (or compatible system)
-- Pyhon 3 with pip
+- Python 3 with pip
 
 ## Setup
 1. Download/Install Localstack CLI from https://docs.localstack.cloud/get-started/#localstack-cli

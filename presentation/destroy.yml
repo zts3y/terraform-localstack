@@ -1,0 +1,217 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /home/zsarver/sources/terraform-localstack/infrastructure
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 179
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 69
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: -1
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 543
+    content: "\e]0;zsarver@DESKTOP-1STDSUF: ~/sources/terraform-localstack/infrastructure\a\e[01;32mzsarver@DESKTOP-1STDSUF\e[00m:\e[01;34m~/sources/terraform-localstack/infrastructure\e[00m$ "
+  - delay: 1837
+    content: t
+  - delay: 81
+    content: e
+  - delay: 158
+    content: r
+  - delay: 334
+    content: r
+  - delay: 315
+    content: a
+  - delay: 212
+    content: f
+  - delay: 91
+    content: o
+  - delay: 273
+    content: r
+  - delay: 160
+    content: m
+  - delay: 139
+    content: ' '
+  - delay: 107
+    content: d
+  - delay: 202
+    content: e
+  - delay: 76
+    content: s
+  - delay: 236
+    content: t
+  - delay: 193
+    content: r
+  - delay: 111
+    content: o
+  - delay: 159
+    content: 'y'
+  - delay: 338
+    content: "\r\n"
+  - delay: 2015
+    content: "\e[0m\e[1maws_s3_bucket.files: Refreshing state... [id=cds-files]\e[0m\r\n\e[0m\e[1maws_iam_role.lambda_exec: Refreshing state... [id=serverless_lambda]\e[0m\r\n\e[0m\e[1maws_api_gateway_rest_api.movies: Refreshing state... [id=3q9maiqyjv]\e[0m\r\n\e[0m\e[1maws_lambda_function.movies_api: Refreshing state... [id=movies_api]\e[0m\r\n"
+  - delay: 92
+    content: "\e[0m\e[1maws_api_gateway_resource.proxy: Refreshing state... [id=y8xznukewx]\e[0m\r\n\e[0m\e[1maws_api_gateway_method.proxy_root: Refreshing state... [id=agm-3q9maiqyjv-f9xokxgllo-ANY]\e[0m\r\n"
+  - delay: 26
+    content: "\e[0m\e[1maws_lambda_permission.apigw: Refreshing state... [id=AllowAPIGatewayInvoke]\e[0m\r\n"
+  - delay: 22
+    content: "\e[0m\e[1maws_api_gateway_method.proxy: Refreshing state... [id=agm-3q9maiqyjv-y8xznukewx-ANY]\e[0m\r\n\e[0m\e[1maws_api_gateway_integration.lambda_root: Refreshing state... [id=agi-3q9maiqyjv-f9xokxgllo-ANY]\e[0m\r\n"
+  - delay: 33
+    content: "\e[0m\e[1maws_api_gateway_integration.lambda: Refreshing state... [id=agi-3q9maiqyjv-y8xznukewx-ANY]\e[0m\r\n"
+  - delay: 22
+    content: "\e[0m\e[1maws_api_gateway_deployment.movies: Refreshing state... [id=0b5l89wpzf]\e[0m\r\n"
+  - delay: 168
+    content: "\e[0m\e[1maws_s3_object.DemoFile: Refreshing state... [id=demo.txt]\e[0m\r\n"
+  - delay: 130
+    content: "\e[0m\e[1maws_iam_role_policy_attachment.lambda_policy: Refreshing state... [id=serverless_lambda-20220317013602084700000001]\e[0m\r\n"
+  - delay: 189
+    content: "\r\nTerraform used the selected providers to generate the following execution plan. Resource actions are indicated with the following symbols:\r\n  \e[31m-\e[0m destroy\r\n\e[0m\r\nTerraform will perform the following actions:\r\n\r\n\e[1m  # aws_api_gateway_deployment.movies\e[0m will be \e[1m\e[31mdestroyed\e[0m\e[0m\r\n\e[0m  \e[31m-\e[0m\e[0m resource \"aws_api_gateway_deployment\" \"movies\" {\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mcreated_date\e[0m\e[0m  = \"2022-03-17T01:36:08Z\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mexecution_arn\e[0m\e[0m = \"arn:aws:execute-api:us-east-1::3q9maiqyjv/dev\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mid\e[0m\e[0m            = \"0b5l89wpzf\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0minvoke_url\e[0m\e[0m    = \"https://3q9maiqyjv.execute-api.us-east-1.amazonaws.com/dev\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mrest_api_id\e[0m\e[0m   = \"3q9maiqyjv\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mstage_name\e[0m\e[0m    = \"dev\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n    }\r\n\r\n\e[1m  # aws_api_gateway_integration.lambda\e[0m will be \e[1m\e[31mdestroyed\e[0m\e[0m\r\n\e[0m  \e[31m-\e[0m\e[0m resource \"aws_api_gateway_integration\" \"lambda\" {\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mcache_key_parameters\e[0m\e[0m    = [] \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mcache_namespace\e[0m\e[0m         = \"4908a60b\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mconnection_type\e[0m\e[0m         = \"INTERNET\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mhttp_method\e[0m\e[0m             = \"ANY\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mid\e[0m\e[0m                      = \"agi-3q9maiqyjv-y8xznukewx-ANY\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mintegration_http_method\e[0m\e[0m = \"POST\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mpassthrough_behavior\e[0m\e[0m    = \"WHEN_NO_MATCH\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mrequest_parameters\e[0m\e[0m      = {} \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mrequest_templates\e[0m\e[0m       = {} \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mresource_id\e[0m\e[0m             = \"y8xznukewx\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mrest_api_id\e[0m\e[0m             = \"3q9maiqyjv\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mtimeout_milliseconds\e[0m\e[0m    = 29000 \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mtype\e[0m\e[0m                    = \"AWS_PROXY\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0muri\e[0m\e[0m                     = \"arn:aws:apigateway:us-east-1:lambda:path/2015-03-31/functions/arn:aws:lambda:us-east-1:000000000000:function:movies_api/invocations\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n    }\r\n\r\n\e[1m  # aws_api_gateway_integration.lambda_root\e[0m will be \e[1m\e[31mdestroyed\e[0m\e[0m\r\n\e[0m  \e[31m-\e[0m\e[0m resource \"aws_api_gateway_integration\" \"lambda_root\" {\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mcache_key_parameters\e[0m\e[0m    = [] \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mcache_namespace\e[0m\e[0m         = \"2b9ab251\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mconnection_type\e[0m\e[0m         = \"INTERNET\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mhttp_method\e[0m\e[0m             = \"ANY\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mid\e[0m\e[0m                      = \"agi-3q9maiqyjv-f9xokxgllo-ANY\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mintegration_http_method\e[0m\e[0m = \"POST\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mpassthrough_behavior\e[0m\e[0m    = \"WHEN_NO_MATCH\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mrequest_parameters\e[0m\e[0m      = {} \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mrequest_templates\e[0m\e[0m       = {} \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mresource_id\e[0m\e[0m             = \"f9xokxgllo\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mrest_api_id\e[0m\e[0m             = \"3q9maiqyjv\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mtimeout_milliseconds\e[0m\e[0m    = 29000 \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mtype\e[0m\e[0m                    = \"AWS_PROXY\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0muri\e[0m\e[0m                     = \"arn:aws:apigateway:us-east-1:lambda:path/2015-03-31/functions/arn:aws:lambda:us-east-1:000000000000:function:movies_api/invocations\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n    }\r\n\r\n\e[1m  # aws_api_gateway_method.proxy\e[0m will be \e[1m\e[31mdestroyed\e[0m\e[0m\r\n\e[0m  \e[31m-\e[0m\e[0m resource \"aws_api_gateway_method\" \"proxy\" {\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mapi_key_required\e[0m\e[0m     = false \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mauthorization\e[0m\e[0m        = \"NONE\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mauthorization_scopes\e[0m\e[0m = [] \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mhttp_method\e[0m\e[0m          = \"ANY\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mid\e[0m\e[0m                   = \"agm-3q9maiqyjv-y8xznukewx-ANY\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mrequest_models\e[0m\e[0m       = {} \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mrequest_parameters\e[0m\e[0m   = {} \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mresource_id\e[0m\e[0m          = \"y8xznukewx\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mrest_api_id\e[0m\e[0m          = \"3q9maiqyjv\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n    }\r\n\r\n\e[1m  # aws_api_gateway_method.proxy_root\e[0m will be \e[1m\e[31mdestroyed\e[0m\e[0m\r\n\e[0m  \e[31m-\e[0m\e[0m resource \"aws_api_gateway_method\" \"proxy_root\" {\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mapi_key_required\e[0m\e[0m     = false \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mauthorization\e[0m\e[0m        = \"NONE\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mauthorization_scopes\e[0m\e[0m = [] \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mhttp_method\e[0m\e[0m          = \"ANY\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mid\e[0m\e[0m                   = \"agm-3q9maiqyjv-f9xokxgllo-ANY\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mrequest_models\e[0m\e[0m       = {} \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mrequest_parameters\e[0m\e[0m   = {} \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mresource_id\e[0m\e[0m          = \"f9xokxgllo\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mrest_api_id\e[0m\e[0m          = \"3q9maiqyjv\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n    }\r\n\r\n\e[1m  # aws_api_gateway_resource.proxy\e[0m will be \e[1m\e[31mdestroyed\e[0m\e[0m\r\n\e[0m  \e[31m-\e[0m\e[0m resource \"aws_api_gateway_resource\" \"proxy\" {\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mid\e[0m\e[0m          = \"y8xznukewx\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mparent_id\e[0m\e[0m   = \"f9xokxgllo\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mpath\e[0m\e[0m        = \"/{proxy+}\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mpath_part\e[0m\e[0m   = \"{proxy+}\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mrest_api_id\e[0m\e[0m = \"3q9maiqyjv\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n    }\r\n\r\n\e[1m  # aws_api_gateway_rest_api.movies\e[0m will be \e[1m\e[31mdestroyed\e[0m\e[0m\r\n\e[0m  \e[31m-\e[0m\e[0m resource \"aws_api_gateway_rest_api\" \"movies\" {\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mapi_key_source\e[0m\e[0m               = \"HEADER\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0marn\e[0m\e[0m                          = \"arn:aws:apigateway:us-east-1::/restapis/3q9maiqyjv\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mbinary_media_types\e[0m\e[0m           = [] \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mcreated_date\e[0m\e[0m                 = \"2022-03-17T01:36:01Z\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mdescription\e[0m\e[0m                  = \"Terraform MoviesAPI Example\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mdisable_execute_api_endpoint\e[0m\e[0m = false \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mexecution_arn\e[0m\e[0m                = \"arn:aws:execute-api:us-east-1::3q9maiqyjv\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mid\e[0m\e[0m                           = \"3q9maiqyjv\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mminimum_compression_size\e[0m\e[0m     = -1 \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mname\e[0m\e[0m                         = \"MoviesAPI\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mroot_resource_id\e[0m\e[0m             = \"f9xokxgllo\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mtags\e[0m\e[0m                         = {} \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mtags_all\e[0m\e[0m                     = {} \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n\r\n      \e[31m-\e[0m \e[0mendpoint_configuration {\r\n          \e[31m-\e[0m \e[0m\e[1m\e[0mtypes\e[0m\e[0m            = [\r\n              \e[31m-\e[0m \e[0m\"EDGE\",\r\n            ] \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n          \e[31m-\e[0m \e[0m\e[1m\e[0mvpc_endpoint_ids\e[0m\e[0m = [] \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n        }\r\n    }\r\n\r\n\e[1m  # aws_iam_role.lambda_exec\e[0m will be \e[1m\e[31mdestroyed\e[0m\e[0m\r\n\e[0m  \e[31m-\e[0m\e[0m resource \"aws_iam_role\" \"lambda_exec\" {\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0marn\e[0m\e[0m                   = \"arn:aws:iam::000000000000:role/serverless_lambda\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0massume_role_policy\e[0m\e[0m    = jsonencode(\r\n            {\r\n              \e[31m-\e[0m \e[0mStatement = [\r\n                  \e[31m-\e[0m \e[0m{\r\n                      \e[31m-\e[0m \e[0mAction    = \"sts:AssumeRole\"\r\n                      \e[31m-\e[0m \e[0mEffect    = \"Allow\"\r\n                      \e[31m-\e[0m \e[0mPrincipal = {\r\n                          \e[31m-\e[0m \e[0mService = \"lambda.amazonaws.com\"\r\n                        }\r\n                      \e[31m-\e[0m \e[0mSid       = \"\"\r\n                    },\r\n                ]\r\n              \e[31m-\e[0m \e[0mVersion   = \"2012-10-17\"\r\n            }\r\n        ) \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mcreate_date\e[0m\e[0m           = \"2022-03-17T01:36:01Z\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mforce_detach_policies\e[0m\e[0m = false \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mid\e[0m\e[0m                    = \"serverless_lambda\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mmanaged_policy_arns\e[0m\e[0m   = [\r\n          \e[31m-\e[0m \e[0m\"arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole\",\r\n        ] \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mmax_session_duration\e[0m\e[0m  = 3600 \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mname\e[0m\e[0m                  = \"serverless_lambda\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mpath\e[0m\e[0m                  = \"/\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mtags\e[0m\e[0m                  = {} \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mtags_all\e[0m\e[0m              = {} \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0munique_id\e[0m\e[0m             = \"36zwocfnswsabr7nlzre\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n\r\n      \e[31m-\e[0m \e[0minline_policy {}\r\n    }\r\n\r\n\e[1m  # aws_iam_role_policy_attachment.lambda_policy\e[0m will be \e[1m\e[31mdestroyed\e[0m\e[0m\r\n\e[0m  \e[31m-\e[0m\e[0m resource \"aws_iam_role_policy_attachment\" \"lambda_policy\" {\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mid\e[0m\e[0m         = \"serverless_lambda-20220317013602084700000001\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mpolicy_arn\e[0m\e[0m = \"arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mrole\e[0m\e[0m       = \"serverless_lambda\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n    }\r\n\r\n\e[1m  # aws_lambda_function.movies_api\e[0m will be \e[1m\e[31mdestroyed\e[0m\e[0m\r\n\e[0m  \e[31m-\e[0m\e[0m resource \"aws_lambda_function\" \"movies_api\" {\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0marchitectures\e[0m\e[0m                  = [\r\n          \e[31m-\e[0m \e[0m\"x86_64\",\r\n        ] \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0marn\e[0m\e[0m                            = \"arn:aws:lambda:us-east-1:000000000000:function:movies_api\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mfilename\e[0m\e[0m                       = \"./files/moviesapi.zip\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mfunction_name\e[0m\e[0m                  = \"movies_api\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mhandler\e[0m\e[0m                        = \"index.handler\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mid\e[0m\e[0m                             = \"movies_api\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0minvoke_arn\e[0m\e[0m                     = \"arn:aws:apigateway:us-east-1:lambda:path/2015-03-31/functions/arn:aws:lambda:us-east-1:000000000000:function:movies_api/invocations\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mlast_modified\e[0m\e[0m                  = \"2022-03-17T01:36:01.977+0000\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mlayers\e[0m\e[0m                         = [] \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mmemory_size\e[0m\e[0m                    = 128 \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mpackage_type\e[0m\e[0m                   = \"Zip\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mpublish\e[0m\e[0m                        = false \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mqualified_arn\e[0m\e[0m                  = \"arn:aws:lambda:us-east-1:000000000000:function:movies_api:$LATEST\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mreserved_concurrent_executions\e[0m\e[0m = -1 \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mrole\e[0m\e[0m                           = \"fake_role\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mruntime\e[0m\e[0m                        = \"nodejs14.x\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0msource_code_hash\e[0m\e[0m               = \"BTgzV//bCyeNTeIr4oUzgwKrw++R//6N7bv/MoKn0MQ=\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0msource_code_size\e[0m\e[0m               = 10520785 \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mtags\e[0m\e[0m                           = {} \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mtags_all\e[0m\e[0m                       = {} \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mtimeout\e[0m\e[0m                        = 5 \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mversion\e[0m\e[0m                        = \"$LATEST\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n\r\n      \e[31m-\e[0m \e[0mtracing_config {\r\n          \e[31m-\e[0m \e[0m\e[1m\e[0mmode\e[0m\e[0m = \"PassThrough\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n        }\r\n    }\r\n\r\n\e[1m  # aws_lambda_permission.apigw\e[0m will be \e[1m\e[31mdestroyed\e[0m\e[0m\r\n\e[0m  \e[31m-\e[0m\e[0m resource \"aws_lambda_permission\" \"apigw\" {\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0maction\e[0m\e[0m        = \"lambda:InvokeFunction\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mfunction_name\e[0m\e[0m = \"movies_api\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mid\e[0m\e[0m            = \"AllowAPIGatewayInvoke\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mprincipal\e[0m\e[0m     = \"apigateway.amazonaws.com\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0msource_arn\e[0m\e[0m    = \"arn:aws:execute-api:us-east-1::3q9maiqyjv/*/*\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mstatement_id\e[0m\e[0m  = \"AllowAPIGatewayInvoke\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n    }\r\n\r\n\e[1m  # aws_s3_bucket.files\e[0m will be \e[1m\e[31mdestroyed\e[0m\e[0m\r\n\e[0m  \e[31m-\e[0m\e[0m resource \"aws_s3_bucket\" \"files\" {\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0macl\e[0m\e[0m                                  = \"private\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0marn\e[0m\e[0m                                  = \"arn:aws:s3:::cds-files\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mbucket\e[0m\e[0m                               = \"cds-files\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mbucket_domain_name\e[0m\e[0m                   = \"cds-files.s3.amazonaws.com\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mbucket_regional_domain_name\e[0m\e[0m          = \"cds-files.s3.amazonaws.com\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mcors_rule\e[0m\e[0m                            = [] \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mforce_destroy\e[0m\e[0m                        = false \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mgrant\e[0m\e[0m                                = [] \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mhosted_zone_id\e[0m\e[0m                       = \"Z3AQBSTGFYJSTF\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mid\e[0m\e[0m                                   = \"cds-files\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mlifecycle_rule\e[0m\e[0m                       = [] \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mlogging\e[0m\e[0m                              = [] \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mregion\e[0m\e[0m                               = \"us-east-1\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mreplication_configuration\e[0m\e[0m            = [] \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mrequest_payer\e[0m\e[0m                        = \"BucketOwner\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mserver_side_encryption_configuration\e[0m\e[0m = [] \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mtags\e[0m\e[0m                                 = {\r\n          \e[31m-\e[0m \e[0m\"Environment\" = \"Dev\"\r\n          \e[31m-\e[0m \e[0m\"Name\"        = \"cds-files\"\r\n        } \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mtags_all\e[0m\e[0m                             = {\r\n          \e[31m-\e[0m \e[0m\"Environment\" = \"Dev\"\r\n          \e[31m-\e[0m \e[0m\"Name\"        = \"cds-files\"\r\n        } \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mversioning\e[0m\e[0m                           = [\r\n          \e[31m-\e[0m \e[0m{\r\n              \e[31m-\e[0m \e[0menabled    = false\r\n              \e[31m-\e[0m \e[0mmfa_delete = false\r\n            },\r\n        ] \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mwebsite\e[0m\e[0m                              = [] \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n    }\r\n\r\n\e[1m  # aws_s3_object.DemoFile\e[0m will be \e[1m\e[31mdestroyed\e[0m\e[0m\r\n\e[0m  \e[31m-\e[0m\e[0m resource \"aws_s3_object\" \"DemoFile\" {\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0macl\e[0m\e[0m                = \"private\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mbucket\e[0m\e[0m             = \"cds-files\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mbucket_key_enabled\e[0m\e[0m = false \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mcontent_type\e[0m\e[0m       = \"binary/octet-stream\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0metag\e[0m\e[0m               = \"f732a8db79f329a18d3d8a8d71691800\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mforce_destroy\e[0m\e[0m      = false \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mid\e[0m\e[0m                 = \"demo.txt\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mkey\e[0m\e[0m                = \"demo.txt\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mmetadata\e[0m\e[0m           = {} \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0msource\e[0m\e[0m             = \"./files/demo.txt\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mstorage_class\e[0m\e[0m      = \"STANDARD\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mtags\e[0m\e[0m               = {} \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n      \e[31m-\e[0m \e[0m\e[1m\e[0mtags_all\e[0m\e[0m           = {} \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n    }\r\n\r\n\e[0m\e[1mPlan:\e[0m 0 to add, 0 to change, 13 to destroy.\r\n\e[0m\e[0m\r\n\e[1mChanges to Outputs:\e[0m\e[0m\r\n  \e[31m-\e[0m \e[0m\e[1m\e[0mLambda_Base_URL\e[0m\e[0m = \"https://3q9maiqyjv.execute-api.localhost.localstack.cloud:4566/dev/\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n  \e[31m-\e[0m \e[0m\e[1m\e[0mfunction_name\e[0m\e[0m   = \"movies_api\" \e[90m->\e[0m \e[0m\e[90mnull\e[0m\e[0m\r\n\e[0m\e[1m\r\nDo you really want to destroy all resources?\e[0m\r\n  Terraform will destroy all your managed infrastructure, as shown above.\r\n  There is no undo. Only 'yes' will be accepted to confirm.\r\n\r\n  \e[1mEnter a value:\e[0m \e[0m"
+  - delay: 3284
+    content: 'y'
+  - delay: 63
+    content: e
+  - delay: 88
+    content: s
+  - delay: 3636
+    content: "\r\n\r\n"
+  - delay: 497
+    content: "\e[0m\e[1maws_iam_role_policy_attachment.lambda_policy: Destroying... [id=serverless_lambda-20220317013602084700000001]\e[0m\e[0m\r\n\e[0m\e[1maws_api_gateway_deployment.movies: Destroying... [id=0b5l89wpzf]\e[0m\e[0m\r\n\e[0m\e[1maws_lambda_permission.apigw: Destroying... [id=AllowAPIGatewayInvoke]\e[0m\e[0m\r\n\e[0m\e[1maws_s3_object.DemoFile: Destroying... [id=demo.txt]\e[0m\e[0m\r\n"
+  - delay: 46
+    content: "\e[0m\e[1maws_iam_role_policy_attachment.lambda_policy: Destruction complete after 0s\e[0m\r\n"
+  - delay: 8
+    content: "\e[0m\e[1maws_iam_role.lambda_exec: Destroying... [id=serverless_lambda]\e[0m\e[0m\r\n"
+  - delay: 14
+    content: "\e[0m\e[1maws_api_gateway_deployment.movies: Destruction complete after 0s\e[0m\r\n"
+  - delay: 6
+    content: "\e[0m\e[1maws_api_gateway_integration.lambda_root: Destroying... [id=agi-3q9maiqyjv-f9xokxgllo-ANY]\e[0m\e[0m\r\n\e[0m\e[1maws_api_gateway_integration.lambda: Destroying... [id=agi-3q9maiqyjv-y8xznukewx-ANY]\e[0m\e[0m\r\n"
+  - delay: 17
+    content: "\e[0m\e[1maws_s3_object.DemoFile: Destruction complete after 0s\e[0m\r\n"
+  - delay: 6
+    content: "\e[0m\e[1maws_s3_bucket.files: Destroying... [id=cds-files]\e[0m\e[0m\r\n"
+  - delay: 49
+    content: "\e[0m\e[1maws_api_gateway_integration.lambda_root: Destruction complete after 0s\e[0m\r\n"
+  - delay: 5
+    content: "\e[0m\e[1maws_api_gateway_integration.lambda: Destruction complete after 0s\e[0m\r\n\e[0m\e[1maws_api_gateway_method.proxy_root: Destroying... [id=agm-3q9maiqyjv-f9xokxgllo-ANY]\e[0m\e[0m\r\n"
+  - delay: 5
+    content: "\e[0m\e[1maws_api_gateway_method.proxy: Destroying... [id=agm-3q9maiqyjv-y8xznukewx-ANY]\e[0m\e[0m\r\n"
+  - delay: 43
+    content: "\e[0m\e[1maws_api_gateway_method.proxy_root: Destruction complete after 0s\e[0m\r\n"
+  - delay: 5
+    content: "\e[0m\e[1maws_api_gateway_method.proxy: Destruction complete after 0s\e[0m\r\n"
+  - delay: 5
+    content: "\e[0m\e[1maws_s3_bucket.files: Destruction complete after 0s\e[0m\r\n\e[0m\e[1maws_api_gateway_resource.proxy: Destroying... [id=y8xznukewx]\e[0m\e[0m\r\n"
+  - delay: 18
+    content: "\e[0m\e[1maws_iam_role.lambda_exec: Destruction complete after 0s\e[0m\r\n\e[0m\e[1maws_api_gateway_resource.proxy: Destruction complete after 0s\e[0m\r\n"
+  - delay: 13
+    content: "\e[0m\e[1maws_lambda_permission.apigw: Destruction complete after 0s\e[0m\r\n"
+  - delay: 5
+    content: "\e[0m\e[1maws_api_gateway_rest_api.movies: Destroying... [id=3q9maiqyjv]\e[0m\e[0m\r\n\e[0m\e[1maws_lambda_function.movies_api: Destroying... [id=movies_api]\e[0m\e[0m\r\n"
+  - delay: 14
+    content: "\e[0m\e[1maws_lambda_function.movies_api: Destruction complete after 0s\e[0m\r\n"
+  - delay: 5
+    content: "\e[0m\e[1maws_api_gateway_rest_api.movies: Destruction complete after 0s\e[0m\r\n"
+  - delay: 12
+    content: "\e[0m\e[1m\e[32m\r\nDestroy complete! Resources: 13 destroyed.\r\n\e[0m\e]0;zsarver@DESKTOP-1STDSUF: ~/sources/terraform-localstack/infrastructure\a\e[01;32mzsarver@DESKTOP-1STDSUF\e[00m:\e[01;34m~/sources/terraform-localstack/infrastructure\e[00m$ "
+  - delay: 2495
+    content: "logout\r\n"
